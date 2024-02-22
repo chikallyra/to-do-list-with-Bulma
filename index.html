@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Do It!List</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-dziR/6L/DsdUdxq4f+HpHaJz2NHiRBExWpP5xWrTG6v4fqNYYeFuUj5IyGns2Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+            .head{
+                text-align: center;
+                margin-top: 5px;
+            }
+
+            .boks{
+                width: 50%;
+                justify-content: center;
+                align-items: center;
+            }
+
+        .line {
+            display: block;
+            content: "";
+            border-bottom: 1px solid #000; 
+            margin: 10px 0; 
+            width: 100%;
+            }
+            .gaping{
+            margin-top: 20px; 
+            margin-bottom: 20px; 
+            }
+
+            .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .ikon{
+            margin-top: 1.70rem;
+            margin-right: 5rem;
+            }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-info center">
+        <h1 class="title has-text-centered gaping">Tugasmu Hari Ini</h1>    
+        <div class="hero-body boks">
+            <div class="box center">
+                <article class="media">
+                  <div class="media-left">
+                    <div class="icon is-medium">
+                        <i class="fa fa-calendar ikon" style="font-size:40px;"></i>
+                    </div>                    
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Kamis</strong> <small>
+                            <br>7 Desember 2023</small> 
+                            <br class="line">
+                      </p>
+                      <p>
+                        <label class="checkbox checked">
+                            <input type="checkbox">
+                            Tugas HTML
+                          </label>
+                          <p>
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            Ulangan harian
+                            </label>
+                          </p>     
+                          <p>
+                            <label class="checkbox">
+                                <input type="checkbox" checked>
+                                Projek UAS
+                              </label>
+                          </p>
+                          <p>
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Ambil paket di drop point
+                              </label>
+                          </p>
+                          <p>
+                          <label class="checkbox">
+                            <input type="checkbox">
+                            Minum obat
+                          </label>
+                        </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+          </div>
+        </div>
+      
+        <div class="hero-foot">
+          <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+              <ul>
+                <li class="is-active">
+                    <a href="#" class="has-icons-left">
+                      Daftar Tugas
+                      <span class="icon is-small">
+                        <i class="fa fa-bars"></i>
+                      </span>
+                    </a>
+                  </li>
+                    <a href="tambah.html" class="has-icons-left">
+                      Tambah Daftar
+                      <span class="icon is-small">
+                        <i class="fa fa-plus-circle"></i>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="edit.html" class="has-icons-left">
+                      Edit Tugas
+                      <span class="icon is-small">
+                        <i class="fa fa-edit"></i>
+                      </span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="selesai.html" class="has-icons-left">
+                      Tugas Selesai
+                      <span class="icon is-small">
+                        <i class="fa fa-calendar-check-o"></i>
+                      </span>
+                    </a>
+                  </li>
+
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+  </body>
+</html>
